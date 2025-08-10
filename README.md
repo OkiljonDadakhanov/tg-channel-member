@@ -4,7 +4,7 @@ Bu bot foydalanuvchilarni kanalga a'zo bo'lishga majburlaydi va ro'yxatdan o'tka
 
 ## ✨ Yangi Features
 
-- 🎯 **Kanal ID bilan ishlaydi** - `-1001780323018` (@testuchunbotmajburiy)
+- 🎯 **Kanal ID bilan ishlaydi** - bot uchun kanal.
 - 📊 **Admin statistika** - `/stats` buyrug'i bilan kanal statistikasini ko'rish
 - 📅 **Ro'yxat sanasi** - Har bir ro'yxatdan o'tish sanasi saqlanadi
 - 🚀 **Cloud deployment** - Railway platformasida uzluksiz ishlaydi
@@ -28,9 +28,9 @@ Railway dashboard da quyidagi o'zgaruvchilarni qo'shing:
 
 ```
 BOT_TOKEN=your_bot_token_from_botfather
-REQUIRED_CHANNEL_ID=-1001780323018
+REQUIRED_CHANNEL_ID=channel id
 REQUIRED_CHANNEL_TITLE=Akilhan
-REQUIRED_CHANNEL_URL=https://t.me/testuchunbotmajburiy
+REQUIRED_CHANNEL_URL=https://t.me/channellink
 ADMIN_CHAT_ID=your_admin_chat_id
 ```
 

@@ -11,7 +11,7 @@ if (!BOT_TOKEN) throw new Error("BOT_TOKEN yo'q");
 const REQUIRED_CHANNEL = {
   id: process.env.REQUIRED_CHANNEL_ID || "-1001780323018",
   title: process.env.REQUIRED_CHANNEL_TITLE || "Akilhan",
-  url: process.env.REQUIRED_CHANNEL_URL || "https://t.me/testuchunbotmajburiy",
+  url:  "https://t.me/akilhan",
 };
 
 const bot = new Telegraf(BOT_TOKEN);
